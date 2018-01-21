@@ -2,9 +2,11 @@ import React, { Component } from "react";
 import ImageCard from "./components/ImageCard";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header/Header";
-import Scoreboard from "./components/Header/Header";
-//import Footer from "./components/Footer";
+import Scoreboard from "./components/Header/Scoreboard";
+//import Footer from "./components/Footer"
 import images from "./images.json";
+import imageFiles from "./images";
+
 import "./App.css";
 
 class App extends Component {
@@ -13,11 +15,11 @@ class App extends Component {
     images
   };
 
-  randomize = id => {
-    // randomize this.state.images when clicked
-    const random = this.state.iamges.random(image => images.id !== id);
-    // Set this.state.friends equal to the new friends array
-    this.setState({ images });
+  RandomizeImages() {
+    const random = Math.floor((Math.random() * images) + 1);
+    // const random = this.state.images.Math.filter(image => images.id !== id);
+    // Set this.state.iamges equal to the new image array
+    this.setState({ random });
   };
 
   // Map over this.state.images and render a ImageCard component for each image object
@@ -33,10 +35,11 @@ class App extends Component {
 
         <Header className="App-intro">
         </Header>
+        <Scoreboard/>
 
         {this.state.images.map(images => (
           <ImageCard
-            randomize={this.randomize}
+            RandomizeImages={this.random}
             id={images.id}
             key={images.id}
             name={images.name}
