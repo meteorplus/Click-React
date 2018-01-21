@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Droid1",
+    "image": "./images/img1",
+    "clicked": "false"
+  },
+  {
+    "id": 2,
+    "name": "Droid2",
+    "image": "./images/img2",
+    "clicked": "false"
+  },
+  {
+    "id": 3,
+    "name": "Droid3",
+    "image": "./images/img3",
+    "clicked": "false"
+  },
+  {
+    "id": 4,
+    "name": "Droid4",
+    "image": "./images/img4",
+    "clicked": "false"
+  },
+  {
+    "id": 5,
+    "name": "Droid5",
+    "image": "./images/img5",
+    "clicked": "false"
+  },
+  {
+    "id": 6,
+    "name": "Droid6",
+    "image": "./images/img6",
+    "clicked": "false"
+  },
+  {
+    "id": 7,
+    "name": "Droid7",
+    "image": "./images/img7",
+    "clicked": "false"
+  },
+  {
+    "id": 8,
+    "name": "Droid8",
+    "image": "./images/img8",
+    "clicked": "false"
+  },
+  {
+    "id": 9,
+    "name": "Droid9",
+    "image": "./images/img9",
+    "clicked": "false"
+  },
+  {
+    "id": 10,
+    "name": "Droid10",
+    "image": "./images/img10",
+    "clicked": "false"
+  },
+  {
+    "id": 11,
+    "name": "Droid11",
+    "image": "./images/img11",
+    "clicked": "false"
+  },
+  {
+    "id": 12,
+    "name": "Droid12",
+    "image": "./images/img12",
+    "clicked": "false"
+  }
+]
