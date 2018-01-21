@@ -2,13 +2,16 @@ import React from "react";
 import "./ImageCard.css";
 
 const ImageCard = props => (
+
   <div className="card">
     <div className="img-container">
       <img alt={props.name} src={props.image} />
     </div>
-    <div className="content">
+    <div className="jumbotron">
     </div>
-    <span onClick={() => props.randomize(props.id)} className="randomize">
+    <span className="border border-primary">
+    <span onClick={() => props.updateImages(props.id)} className="">
+    </span>
     </span>
   </div>
 );
